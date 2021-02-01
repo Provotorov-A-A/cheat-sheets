@@ -55,18 +55,24 @@ puts {Expressions $var1 and [set var1] are absolutly equal }
 
 ############################################################################
 puts ""
-puts "  Procedure defifnition"
+puts "  proc - creates new procedure that may be called as usual command."
 puts "Common form: "
 puts {proc procedureName {formal_var1 formal_var2 ...}  
 { 
     procedure_body 
 }}
-puts {Command "proc" creates new procedure that may be called as usual command. }
 
 ############################################################################
 puts ""
+puts "  open - open file ins specified mode and return it's descriptor."
+puts "Common form:"
+puts {open filename mode}
+puts {Examples:}
+puts {open $filename a}
 
+############################################################################
 
+############################################################################
 puts ""
 puts "=================================================================================="
 puts ""
